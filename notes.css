@@ -1,0 +1,64 @@
+
+.placeholders{
+    font-weight: 600;
+    color:rgb(250, 250, 250);
+    transition: color 0.5s;
+    text-decoration: none;
+}
+.nav-bar{
+    display: flex;
+    justify-content: space-evenly;
+}
+.placeholders:hover {
+    border-bottom: 1px solid black;
+    color: palevioletred;
+}
+.navigation{
+    display: flex;
+    padding: 20px;
+    
+}
+.navigation-left{
+    margin-right: 20px;
+    font-size: 0.9em;
+    text-transform: uppercase;
+    height: 22px;
+    border-bottom: 1px solid transparent;
+    transition: border-bottom  0.5s;
+}
+.navigation-right{
+    font-size: 0.9em;
+    text-transform: uppercase;
+    height: 22px;
+    border-bottom: 1px solid transparent;
+    transition: border-bottom  0.5s;
+
+}
+.navigation-left a {
+    color: white ;
+    text-decoration: none;
+    transition: color 0.5s;
+
+}
+.navigation-right a {
+    color: white ;
+    text-decoration: none;
+    transition: color 0.5s;
+}
+.navigation-left:hover {
+    border-bottom: 1px solid black;
+    color: palevioletred;
+}
+.navigation-right:hover {
+    border-bottom: 1px solid black;
+    color: palevioletred;
+}
+.navigation-left a:hover {
+    color: teal;
+}
+.navigation-right a:hover {
+    color: teal;
+}
+.navigation{
+    background-color: black;
+}
